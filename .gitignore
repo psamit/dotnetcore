@@ -1,0 +1,21 @@
+# dotnet core app gitignore
+*.swp
+*.*~
+bin/
+obj/
+project.lock.json
+.DS_Store
+*.pyc
+.vscode
+
+# angular 2 gitignore 
+
+system-config.js*
+app/**/*.js
+app/**/*.map
+node_modules
+jspm_packages
+bower_components
+aot/*
+dist/*
+yarn.lock
